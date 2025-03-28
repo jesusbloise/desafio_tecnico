@@ -1,0 +1,46 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/weeklySummary";
+exports.ids = ["pages/api/weeklySummary"];
+exports.modules = {
+
+/***/ "(api)/./data/weeklySummaryData.js":
+/*!***********************************!*\
+  !*** ./data/weeklySummaryData.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst weeklySummaryData = [\n    {\n        dia: \"Lunes\",\n        fecha: \"2025-03-24\",\n        col1: 250,\n        col2: 1100,\n        col3: 79900,\n        total: 81250,\n        dinero1: 800000,\n        dinero2: 0,\n        dineroTotal: 800000\n    },\n    {\n        dia: \"Martes\",\n        fecha: \"2025-03-25\",\n        col1: 300,\n        col2: 1050,\n        col3: 80000,\n        total: 81350,\n        dinero1: 1200000,\n        dinero2: 0,\n        dineroTotal: 1200000\n    },\n    {\n        dia: \"Mi\\xe9rcoles\",\n        fecha: \"2025-03-26\",\n        col1: 200,\n        col2: 1500,\n        col3: 79500,\n        total: 81200,\n        dinero1: 2500000,\n        dinero2: 50000,\n        dineroTotal: 2450000\n    },\n    {\n        dia: \"Jueves\",\n        fecha: \"2025-03-27\",\n        col1: 250,\n        col2: 1800,\n        col3: 78995,\n        total: 81045,\n        dinero1: 7000000,\n        dinero2: 0,\n        dineroTotal: 7000000\n    },\n    {\n        dia: \"Viernes\",\n        fecha: \"2025-03-28\",\n        col1: 200,\n        col2: 2200,\n        col3: 78795,\n        total: 81200,\n        dinero1: 6000000,\n        dinero2: 126000,\n        dineroTotal: 5870000\n    },\n    {\n        dia: \"S\\xe1bado\",\n        fecha: \"2025-03-29\",\n        col1: 300,\n        col2: 1080,\n        col3: 80215,\n        total: 81595,\n        dinero1: 12000000,\n        dinero2: 125000,\n        dineroTotal: 11870000\n    },\n    {\n        dia: \"Domingo\",\n        fecha: \"2025-03-30\",\n        col1: 300,\n        col2: 1150,\n        col3: 80445,\n        total: 81995,\n        dinero1: 10000000,\n        dinero2: 100000,\n        dineroTotal: 9900000\n    }, \n];\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (weeklySummaryData);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9kYXRhL3dlZWtseVN1bW1hcnlEYXRhLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFDQSxNQUFNQSxpQkFBaUIsR0FBRztJQUN0QjtRQUFFQyxHQUFHLEVBQUUsT0FBTztRQUFFQyxLQUFLLEVBQUUsWUFBWTtRQUFFQyxJQUFJLEVBQUUsR0FBRztRQUFFQyxJQUFJLEVBQUUsSUFBSTtRQUFFQyxJQUFJLEVBQUUsS0FBSztRQUFFQyxLQUFLLEVBQUUsS0FBSztRQUFFQyxPQUFPLEVBQUUsTUFBTTtRQUFFQyxPQUFPLEVBQUUsQ0FBQztRQUFFQyxXQUFXLEVBQUUsTUFBTTtLQUFFO0lBQ3pJO1FBQUVSLEdBQUcsRUFBRSxRQUFRO1FBQUVDLEtBQUssRUFBRSxZQUFZO1FBQUVDLElBQUksRUFBRSxHQUFHO1FBQUVDLElBQUksRUFBRSxJQUFJO1FBQUVDLElBQUksRUFBRSxLQUFLO1FBQUVDLEtBQUssRUFBRSxLQUFLO1FBQUVDLE9BQU8sRUFBRSxPQUFPO1FBQUVDLE9BQU8sRUFBRSxDQUFDO1FBQUVDLFdBQVcsRUFBRSxPQUFPO0tBQUU7SUFDNUk7UUFBRVIsR0FBRyxFQUFFLGNBQVc7UUFBRUMsS0FBSyxFQUFFLFlBQVk7UUFBRUMsSUFBSSxFQUFFLEdBQUc7UUFBRUMsSUFBSSxFQUFFLElBQUk7UUFBRUMsSUFBSSxFQUFFLEtBQUs7UUFBRUMsS0FBSyxFQUFFLEtBQUs7UUFBRUMsT0FBTyxFQUFFLE9BQU87UUFBRUMsT0FBTyxFQUFFLEtBQUs7UUFBRUMsV0FBVyxFQUFFLE9BQU87S0FBRTtJQUNuSjtRQUFFUixHQUFHLEVBQUUsUUFBUTtRQUFFQyxLQUFLLEVBQUUsWUFBWTtRQUFFQyxJQUFJLEVBQUUsR0FBRztRQUFFQyxJQUFJLEVBQUUsSUFBSTtRQUFFQyxJQUFJLEVBQUUsS0FBSztRQUFFQyxLQUFLLEVBQUUsS0FBSztRQUFFQyxPQUFPLEVBQUUsT0FBTztRQUFFQyxPQUFPLEVBQUUsQ0FBQztRQUFFQyxXQUFXLEVBQUUsT0FBTztLQUFFO0lBQzVJO1FBQUVSLEdBQUcsRUFBRSxTQUFTO1FBQUVDLEtBQUssRUFBRSxZQUFZO1FBQUVDLElBQUksRUFBRSxHQUFHO1FBQUVDLElBQUksRUFBRSxJQUFJO1FBQUVDLElBQUksRUFBRSxLQUFLO1FBQUVDLEtBQUssRUFBRSxLQUFLO1FBQUVDLE9BQU8sRUFBRSxPQUFPO1FBQUVDLE9BQU8sRUFBRSxNQUFNO1FBQUVDLFdBQVcsRUFBRSxPQUFPO0tBQUU7SUFDbEo7UUFBRVIsR0FBRyxFQUFFLFdBQVE7UUFBRUMsS0FBSyxFQUFFLFlBQVk7UUFBRUMsSUFBSSxFQUFFLEdBQUc7UUFBRUMsSUFBSSxFQUFFLElBQUk7UUFBRUMsSUFBSSxFQUFFLEtBQUs7UUFBRUMsS0FBSyxFQUFFLEtBQUs7UUFBRUMsT0FBTyxFQUFFLFFBQVE7UUFBRUMsT0FBTyxFQUFFLE1BQU07UUFBRUMsV0FBVyxFQUFFLFFBQVE7S0FBRTtJQUNuSjtRQUFFUixHQUFHLEVBQUUsU0FBUztRQUFFQyxLQUFLLEVBQUUsWUFBWTtRQUFFQyxJQUFJLEVBQUUsR0FBRztRQUFFQyxJQUFJLEVBQUUsSUFBSTtRQUFFQyxJQUFJLEVBQUUsS0FBSztRQUFFQyxLQUFLLEVBQUUsS0FBSztRQUFFQyxPQUFPLEVBQUUsUUFBUTtRQUFFQyxPQUFPLEVBQUUsTUFBTTtRQUFFQyxXQUFXLEVBQUUsT0FBTztLQUFFO0NBQ3BKO0FBRUQsaUVBQWVULGlCQUFpQixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dGpzLWRhc2hib2FyZC1mdWxsLy4vZGF0YS93ZWVrbHlTdW1tYXJ5RGF0YS5qcz80NTUxIl0sInNvdXJjZXNDb250ZW50IjpbIlxyXG5jb25zdCB3ZWVrbHlTdW1tYXJ5RGF0YSA9IFtcclxuICAgIHsgZGlhOiBcIkx1bmVzXCIsIGZlY2hhOiBcIjIwMjUtMDMtMjRcIiwgY29sMTogMjUwLCBjb2wyOiAxMTAwLCBjb2wzOiA3OTkwMCwgdG90YWw6IDgxMjUwLCBkaW5lcm8xOiA4MDAwMDAsIGRpbmVybzI6IDAsIGRpbmVyb1RvdGFsOiA4MDAwMDAgfSxcclxuICAgIHsgZGlhOiBcIk1hcnRlc1wiLCBmZWNoYTogXCIyMDI1LTAzLTI1XCIsIGNvbDE6IDMwMCwgY29sMjogMTA1MCwgY29sMzogODAwMDAsIHRvdGFsOiA4MTM1MCwgZGluZXJvMTogMTIwMDAwMCwgZGluZXJvMjogMCwgZGluZXJvVG90YWw6IDEyMDAwMDAgfSxcclxuICAgIHsgZGlhOiBcIk1pw6lyY29sZXNcIiwgZmVjaGE6IFwiMjAyNS0wMy0yNlwiLCBjb2wxOiAyMDAsIGNvbDI6IDE1MDAsIGNvbDM6IDc5NTAwLCB0b3RhbDogODEyMDAsIGRpbmVybzE6IDI1MDAwMDAsIGRpbmVybzI6IDUwMDAwLCBkaW5lcm9Ub3RhbDogMjQ1MDAwMCB9LFxyXG4gICAgeyBkaWE6IFwiSnVldmVzXCIsIGZlY2hhOiBcIjIwMjUtMDMtMjdcIiwgY29sMTogMjUwLCBjb2wyOiAxODAwLCBjb2wzOiA3ODk5NSwgdG90YWw6IDgxMDQ1LCBkaW5lcm8xOiA3MDAwMDAwLCBkaW5lcm8yOiAwLCBkaW5lcm9Ub3RhbDogNzAwMDAwMCB9LFxyXG4gICAgeyBkaWE6IFwiVmllcm5lc1wiLCBmZWNoYTogXCIyMDI1LTAzLTI4XCIsIGNvbDE6IDIwMCwgY29sMjogMjIwMCwgY29sMzogNzg3OTUsIHRvdGFsOiA4MTIwMCwgZGluZXJvMTogNjAwMDAwMCwgZGluZXJvMjogMTI2MDAwLCBkaW5lcm9Ub3RhbDogNTg3MDAwMCB9LFxyXG4gICAgeyBkaWE6IFwiU8OhYmFkb1wiLCBmZWNoYTogXCIyMDI1LTAzLTI5XCIsIGNvbDE6IDMwMCwgY29sMjogMTA4MCwgY29sMzogODAyMTUsIHRvdGFsOiA4MTU5NSwgZGluZXJvMTogMTIwMDAwMDAsIGRpbmVybzI6IDEyNTAwMCwgZGluZXJvVG90YWw6IDExODcwMDAwIH0sXHJcbiAgICB7IGRpYTogXCJEb21pbmdvXCIsIGZlY2hhOiBcIjIwMjUtMDMtMzBcIiwgY29sMTogMzAwLCBjb2wyOiAxMTUwLCBjb2wzOiA4MDQ0NSwgdG90YWw6IDgxOTk1LCBkaW5lcm8xOiAxMDAwMDAwMCwgZGluZXJvMjogMTAwMDAwLCBkaW5lcm9Ub3RhbDogOTkwMDAwMCB9LFxyXG4gIF07XHJcbiAgXHJcbiAgZXhwb3J0IGRlZmF1bHQgd2Vla2x5U3VtbWFyeURhdGE7XHJcbiAgIl0sIm5hbWVzIjpbIndlZWtseVN1bW1hcnlEYXRhIiwiZGlhIiwiZmVjaGEiLCJjb2wxIiwiY29sMiIsImNvbDMiLCJ0b3RhbCIsImRpbmVybzEiLCJkaW5lcm8yIiwiZGluZXJvVG90YWwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./data/weeklySummaryData.js\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/weeklySummary.js":
+/*!************************************!*\
+  !*** ./pages/api/weeklySummary.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _data_weeklySummaryData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../data/weeklySummaryData */ \"(api)/./data/weeklySummaryData.js\");\n// ✅ pages/api/weeklySummary.js\n\nfunction handler(req, res) {\n    res.status(200).json(_data_weeklySummaryData__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvd2Vla2x5U3VtbWFyeS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBLCtCQUErQjtBQUM4QjtBQUU5QyxTQUFTQyxPQUFPLENBQUNDLEdBQUcsRUFBRUMsR0FBRyxFQUFFO0lBQ3hDQSxHQUFHLENBQUNDLE1BQU0sQ0FBQyxHQUFHLENBQUMsQ0FBQ0MsSUFBSSxDQUFDTCwrREFBaUIsQ0FBQyxDQUFDO0FBQzFDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0anMtZGFzaGJvYXJkLWZ1bGwvLi9wYWdlcy9hcGkvd2Vla2x5U3VtbWFyeS5qcz84YzNiIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIOKchSBwYWdlcy9hcGkvd2Vla2x5U3VtbWFyeS5qc1xyXG5pbXBvcnQgd2Vla2x5U3VtbWFyeURhdGEgZnJvbSAnLi4vLi4vZGF0YS93ZWVrbHlTdW1tYXJ5RGF0YSc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7XHJcbiAgcmVzLnN0YXR1cygyMDApLmpzb24od2Vla2x5U3VtbWFyeURhdGEpO1xyXG59XHJcbiJdLCJuYW1lcyI6WyJ3ZWVrbHlTdW1tYXJ5RGF0YSIsImhhbmRsZXIiLCJyZXEiLCJyZXMiLCJzdGF0dXMiLCJqc29uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./pages/api/weeklySummary.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/weeklySummary.js"));
+module.exports = __webpack_exports__;
+
+})();
